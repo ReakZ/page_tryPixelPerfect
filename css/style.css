@@ -114,7 +114,7 @@ border-bottom:2px solid #FFFFFF;
 }
 
 .btn-main{
-  margin-top: 30px;
+  margin-top: 28px;
   background: #00AFDB;
 border: none;
 color: #ffffff;
@@ -242,7 +242,7 @@ height: 46px;
   /* justify-content: center; */
   align-items: center;
   flex-direction: column;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 #Download h2{
 
@@ -421,7 +421,7 @@ overflow: hidden;
 }
 
 .right{
-  margin-left: 12px;
+  margin-left: 14px;
   background-image: url('../assets/arrow-right.png');
   border: none;
   width: 9px;
@@ -476,7 +476,7 @@ footer{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 169px;
+  padding: 0 160px;
   padding-bottom: 20px;
 }
 
