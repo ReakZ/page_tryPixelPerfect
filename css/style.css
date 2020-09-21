@@ -148,7 +148,7 @@ padding: 15px 47px;
   display: flex;
   justify-content: center;
   align-items: center;
-
+background-size: cover;
 }
 .subscribeForm{
   width: 406px;
