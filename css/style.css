@@ -3,6 +3,7 @@
   margin: 0;
   font-family: 'Roboto',serif;
   box-sizing: border-box;
+
 }
 
 header{
@@ -128,6 +129,8 @@ padding: 15px 47px;
 /* right code */
 
 .block{
+  width: 1600px;
+  margin: 0 auto;
   padding: 0 269px;
   height: 842px;
 }
@@ -138,7 +141,10 @@ padding: 15px 47px;
   justify-content: space-between;
   align-items: center;
 }
-
+#Rappresent h2{
+  width: 367px !important;
+  letter-spacing: 1px;
+}
 /* SignUp */
 
 
@@ -173,12 +179,13 @@ text-align: center;
 
 #subscirbeInput{
   padding: 13px 24px;
-  font-size: 17px;
+  font-size: 14px;
   border: none;
   float: left;
   width: 340px;
   background: #ffffff;
   box-sizing: border-box;
+  height: 46px;
 }
 
 .inputCover{
@@ -213,9 +220,11 @@ height: 46px;
   align-items: center;
   flex-direction: column;
 }
-#Download >h2{
+#Download h2{
   margin-top: 20px;
   margin-bottom: 20px;
+
+
 }
 #Download>p{
   width: 480px;
@@ -354,6 +363,7 @@ line-height: 140%;
 }
 .contentBlock p{
   margin-top: 20px;
+  font-weight: 400;
 }
 
 
@@ -461,10 +471,15 @@ margin-left: 139px;
 
 
 .block2{
+  width: 1600px;
+  margin: 0 auto;
   padding: 0 0 0 269px;
   height: 842px;
 }
-
+.cov{
+  width: 100%;
+  background-color: #F5F6F7;
+}
 .toolbox{
   color: #373737 ;
   font-size: 18px;
