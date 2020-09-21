@@ -63,7 +63,9 @@ width: 504px;
 
 }
 
-
+.yourLife>.btn-main{
+  margin-top: 30px;
+}
 h2{
   text-transform: uppercase;
   font-style: normal;
