@@ -138,7 +138,7 @@ padding: 15px 47px;
   padding-bottom: 10px;
 }
 
-#Rappresent,#ourCommunity{
+#Rappresent{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -169,13 +169,14 @@ padding: 15px 47px;
   height: 524px;
   background-position: top;
   display: flex;
-  justify-content: center;
-  align-items: center;
+ justify-content: center;
+  /* align-items: center; */
 background-size: cover;
 }
 .subscribeForm{
   width: 406px;
   height: 104px;
+  margin-top: 200px;
 
 
 }
@@ -319,6 +320,10 @@ padding-left: 20px;
 #ourCommunity{
   background-color: #F5F6F7;
   height: 504px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
 }
 
 .userCard >h2{
@@ -356,12 +361,14 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 text-align: center;
+margin-top: 155px;
 
 }
 .cover{
   display: flex;
   justify-content: center;
   width: 100%;
+
 }
 .userCard img{
   display: flex;
@@ -376,6 +383,8 @@ text-align: center;
   flex-direction: column;
 align-items: center;
 margin-left: 139px;
+margin-top: 82px;
+overflow: hidden;
 }
 
 .slider-items{
@@ -384,7 +393,8 @@ margin-left: 139px;
   width: 894px;
   list-style: none;
   justify-content: space-between;
-  overflow: hidden;
+  margin-top: 20px;
+
 
   margin-top: 20px;
 }
@@ -396,7 +406,7 @@ margin-left: 139px;
 
 
 .left{
-  margin-right: 15px;
+  margin-right: 12px;
   background-image: url('../assets/arrow-left.png');
   border: none;
   width: 9px;
@@ -405,7 +415,7 @@ margin-left: 139px;
 }
 
 .right{
-  margin-left: 15px;
+  margin-left: 12px;
   background-image: url('../assets/arrow-right.png');
   border: none;
   width: 9px;
@@ -450,6 +460,12 @@ margin-left: 139px;
 footer{
   height: 185px;
   background: #000000;
+
+}
+.clasa{
+  height: 100%;
+  width: 1600px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -458,8 +474,7 @@ footer{
   padding-bottom: 20px;
 }
 
-
-footer>a{
+.clasa>a{
   margin-right: 75px;
 }
 .nav-items {
