@@ -138,11 +138,24 @@ padding: 15px 47px;
   padding-bottom: 10px;
 }
 
-#implement,#Rappresent,#ourCommunity{
+#Rappresent,#ourCommunity{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+#implement {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#implement>.contentBlock{
+  margin-right: 109px;
+  margin-top: 20px;
 }
 #Rappresent h2{
   width: 387px !important;
@@ -219,9 +232,10 @@ height: 46px;
   height: 464px;
   background: #F5F6F7;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
+  padding-top: 120px;
 }
 #Download h2{
   margin-top: 20px;
