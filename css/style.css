@@ -7,10 +7,11 @@
 }
 
 header{
-  background-image: url("../assets/bg-image.png") ;
+  background-image: url("../assets/bg-image.png")  ;
   height: 744px;
   width: 100%;
-  background-size: cover;
+  /* background-size: cover; */
+  background-position: center;
 }
 
 
@@ -142,24 +143,29 @@ padding: 15px 47px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
 
+
+#Rappresent>img{
+margin-top: 120px;
+
+}
 #implement {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-
 }
-
+#implement > img{
+  margin-top: 120px;
+}
 #implement>.contentBlock{
   margin-right: 109px;
-  margin-top: 20px;
+  margin-top: 319px;
 }
 #Rappresent h2{
   width: 387px !important;
   letter-spacing: 1px;
+  margin-top: 295px;
 }
 /* SignUp */
 
@@ -171,7 +177,7 @@ padding: 15px 47px;
   display: flex;
  justify-content: center;
   /* align-items: center; */
-background-size: cover;
+/* background-size: cover; */
 }
 .subscribeForm{
   width: 406px;
@@ -236,15 +242,15 @@ height: 46px;
   /* justify-content: center; */
   align-items: center;
   flex-direction: column;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 #Download h2{
-  margin-top: 20px;
-  margin-bottom: 20px;
+
 
 
 }
 #Download>p{
+  margin-top: 20px;
   width: 480px;
   font-style: normal;
 font-weight: normal;
@@ -442,7 +448,7 @@ overflow: hidden;
   color: #373737 ;
   font-size: 18px;
   line-height: 100%;
-  margin-left: 290px;
+  margin-left: 280px;
   font-weight: 700;
 }
 
