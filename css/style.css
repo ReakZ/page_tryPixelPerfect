@@ -115,7 +115,7 @@ border-bottom:2px solid #FFFFFF;
 }
 
 .btn-main{
-  margin-top: 25px;
+  margin-top: 35px;
   background: #00AFDB;
 border: none;
 color: #ffffff;
@@ -417,7 +417,7 @@ overflow: hidden;
 
 
 .left{
-  margin-right: 12px;
+  margin-right: 14px;
   background-image: url('../assets/arrow-left.png');
   border: none;
   width: 9px;
