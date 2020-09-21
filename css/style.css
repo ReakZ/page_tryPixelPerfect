@@ -24,6 +24,7 @@ nav>ul{
   margin: auto;
   width: 580px;
   list-style: none;
+
 }
 
 
@@ -114,7 +115,7 @@ border-bottom:2px solid #FFFFFF;
 }
 
 .btn-main{
-  margin-top: 28px;
+  margin-top: 25px;
   background: #00AFDB;
 border: none;
 color: #ffffff;
@@ -127,7 +128,11 @@ width: 184px;
 height: 46px;
 padding: 15px 47px;
 }
+.wt{
 
+width: 180px;
+
+}
 
 /* right code */
 
@@ -421,7 +426,7 @@ overflow: hidden;
 }
 
 .right{
-  margin-left: 14px;
+  margin-left: 10px;
   background-image: url('../assets/arrow-right.png');
   border: none;
   width: 9px;
