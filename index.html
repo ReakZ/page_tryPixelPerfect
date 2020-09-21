@@ -17,23 +17,29 @@
   </head>
 
   <body>
-    <section id="main">
+    <header>
       <nav>
-        <a href="#" class="nav-item active">About</a>
-        <a href="#" class="nav-item">Syllabus</a>
-        <img
-          src="./assets/Vector.png"
-          alt="logo"
-          srcset="./assets/Vector.svg"
-          height="48"
-          width="48"
-        />
-        <a href="#" class="nav-item">Projects</a>
-        <a href="#" class="nav-item">FAQ</a>
+        <ul>
+          <li><a href="#" class="nav-item active">About</a></li>
+          <li><a href="#" class="nav-item">Syllabus</a></li>
+          <li>
+            <a href="#">
+              <img
+                src="./assets/Vector.png"
+                alt="logo"
+                srcset="./assets/Vector.svg"
+                height="48"
+                width="48"
+            /></a>
+          </li>
+          <li><a href="#" class="nav-item">Projects</a></li>
+          <li><a href="#" class="nav-item">FAQ</a></li>
+        </ul>
       </nav>
+      <h1 class="hideheader">webdev</h1>
 
-      <div class="center">
-        <h1>Your live is webdev</h1>
+      <div class="yourLife">
+        <h2>Your live is webdev</h2>
         <p>
           Whatever the approach to development may be, the final program must
           satisfy some fundamental properties
@@ -80,9 +86,9 @@
           </li>
         </ul>
       </div>
-    </section>
+    </header>
 
-    <section id="getStarted" class="block">
+    <section id="Rappresent" class="block">
       <div class="contentBlock">
         <h2>Rappresent your idea with a smart Design</h2>
         <p>
@@ -95,12 +101,13 @@
       </div>
       <img
         src="./assets/content-image-1.png"
-        alt="getStarted"
+        alt="Rappresent"
         height="582"
         width="472"
       />
     </section>
-    <section id="ourCommunity">
+
+    <section id="ourCommunity" class="block2">
       <div class="userCard">
         <div class="cover">
           <img
@@ -121,17 +128,11 @@
 
       <div class="slider">
         <div class="toolbox">
-          <a class="left"
-            ><img src="./assets/arrow-left.png" alt="" height="14" width="9"
-          /></a>
+          <a href="http://">&lsaquo;</a>
           <span id="from"> 1</span>
-          <span id="slash">
-            <img src="./assets/divider-icon.png" alt="" height="14" width="9"
-          /></span>
+          <span id="slash"> / </span>
           <span id="to"> 5</span>
-          <a class="right">
-            <img src="./assets/arrow-right.png" alt="" height="14" width="9"
-          /></a>
+          <a href="http://">&rsaquo;</a>
         </div>
 
         <ul class="slider-items">
@@ -182,43 +183,48 @@
       </div>
     </section>
 
-    <section id="subscribeBlock">
+    <section id="signUp">
       <form action="/subscirbe" class="subscribeForm">
         <h2>sign up for our newsletter</h2>
         <div class="inputCover">
           <input
-            type="text"
+            type="email"
             name="email"
             id="subscirbeInput"
             placeholder="E-mail"
           />
-          <button type="submit">123</button>
+          <button type="submit">
+<img src="./assets/check-icon.png" alt="" srcset="">
+
+          </button>
         </div>
       </form>
     </section>
-
-    <section id="appBlock">
+<!-- Download -->
+    <section id="Download">
       <h2>Download the App</h2>
       <p>
         Machine code was the language of early programs, written in the
         instruction set of the particular machine, often in binary notation.
       </p>
-      <button class="btn-store">Apple store</button>
-      <button class="btn-store">Play market</button>
+      <button class="btn-store">  Apple store <img src="./assets/icon-apple.png" alt="apple"></button>
+      <button class="btn-store"> Play market <img src="./assets/icon-android.png" alt="android"></button>
     </section>
+<!-- Footer -->
     <footer>
-      <ul>
+      <ul class="nav-items">
         <li><a href="">Credits</a></li>
         <li><a href="">Privacy</a></li>
         <li><a href="">Our teams</a></li>
       </ul>
-      <img
-        src="./assets/Vector.png"
-        alt="logo"
-        srcset="./assets/Vector.svg"
-        height="48"
-        width="48"
-      />
+      <a href="#">
+        <img
+          src="./assets/Vector.png"
+          alt="logo"
+          srcset="./assets/Vector.svg"
+          height="48"
+          width="48"
+      /></a>
       <span class="copyright"> by TonYem for RSS at 2020 </span>
     </footer>
     <!-- JavaScript -->
